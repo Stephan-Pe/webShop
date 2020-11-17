@@ -1,0 +1,44 @@
+{
+  "name": "html_partials",
+  "version": "1.0.0",
+  "description": "Html Partials with Gulp",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp",
+    "dev": "gulp serve",
+    "prod": "cross-env NODE_ENV=prod gulp"
+  },
+  "browserslist": [
+    "> 0.25%, not dead"
+  ],
+  "keywords": [
+    "HTML",
+    "GULP",
+    "PARTIALS"
+  ],
+  "author": "Stephan Petersen",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "browser-sync": "^2.26.12",
+    "cross-env": "^7.0.2",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-html-partial": "^1.0.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-js-import": "^1.0.6",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-terser": "^1.4.0",
+    "terser": "^5.3.5"
+  }
+}

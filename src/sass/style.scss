@@ -1,0 +1,36 @@
+@import "partials/reset";
+@import "partials/fonts";
+@import "partials/takeaway";
+@import "partials/cart";
+
+html {
+  height: 100%;
+  //  --top-spacing: 110px;
+  font-family: "Roboto";
+}
+
+body {
+  scroll-padding-top: var(--top-spacing);
+  margin: var(--top-spacing) auto;
+}
+.content {
+  font-family: "Roboto";
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  position: relative;
+  top: 100px;
+  width: 100vw;
+  height: 400px;
+  background-color: rebeccapurple;
+  h1 {
+    font-size: 3rem;
+  }
+  h4 {
+    font-size: 2rem;
+  }
+}
+.header {
+  height: 80px;
+}
