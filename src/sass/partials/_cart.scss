@@ -1,113 +1,113 @@
 // shopping cart icon
 .cart__btn {
-    position: absolute;
-    right: 20px;
-    top: -20px;
-   span {
-        background-color: slategray;
-        display: inline-block;
-        width: 60px;
-        border-radius: 8px;
-    }
-    img {
-        width: 100%;
-    } 
+  position: absolute;
+  right: 20px;
+  top: -20px;
+  span {
+    background-color: slategray;
+    display: inline-block;
+    width: 60px;
+    border-radius: 8px;
+  }
+  img {
+    width: 100%;
+  }
 }
 .cart__items {
-    position: absolute;
-    bottom: 92%;
-    right: -10px;
-    width: 30px;
-    height: 30px;
-    background-color: tomato;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  position: absolute;
+  bottom: 92%;
+  right: -10px;
+  width: 30px;
+  height: 30px;
+  background-color: tomato;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 // end shopping cart icon
 .cart__container {
-    position: fixed;
-    display: flex;
-    flex-direction: column-reverse;
-    width: 360px;
-    top: 0;
-    right: 0;
-    height: 100%;
-    overflow: scroll;
-    z-index: 3;
-    background-color: rgba(slategray, 0.8);
-    transition: all 260ms ease-in;
-    transform: translateX(100%);
-   
+  position: fixed;
+  display: flex;
+  flex-direction: column-reverse;
+  width: 360px;
+  top: 0;
+  right: 0;
+  height: 100%;
+  overflow: auto;
+  z-index: 3;
+  background-color: rgba(slategray, 0.8);
+  transition: all 260ms ease-in;
+  transform: translateX(100%);
 }
 .show__cart {
-    transform: translateX(0) !important;
+  transform: translateX(0) !important;
 }
 .close__cart {
-    outline: none;
-    border: none;
-    background: tomato;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30px;
-    border-radius: 8px;
+  outline: none;
+  border: none;
+  background: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  border-radius: 8px;
 }
 .cart__logic {
-    outline: none;
-    border: none;
-    background: tomato;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 38px;
-    padding: 8px;
-    border-radius: 8px;
-    font-size: 1.6rem;
+  outline: none;
+  border: none;
+  background: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 38px;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 1.6rem;
 }
 .cart__logic:hover {
-    background: turquoise;
- 
+  background: turquoise;
 }
 .cart__item {
-    padding: 1.5rem;
-    font-size: 1.4rem;
-    width: 100%;
-    color: whitesmoke;
-    text-shadow: 0 0 2px black, 0 0 2px whitesmoke,;
+  padding: 1.5rem;
+  font-size: 1.4rem;
+  width: 100%;
+  color: whitesmoke;
+  text-shadow: 0 0 2px black, 0 0 2px whitesmoke;
 }
 .cart__btn--container {
-    width: 100%;
-    margin-bottom: 48px;
-    height: 100px;
-    display: flex;
-    justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 48px;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
 }
 .cart__image {
-    width: 90%;
-    img {
-        max-width: 100%;
-    }
+  width: 50%;
+  margin-bottom: 24px;
+  img {
+    width: 100%;
+    object-fit: contain;
+  }
 }
 .remove__item {
-    display: inline-block;
-    padding: 4px 8px;
-    border-radius: 8px;
-    text-decoration: underline;
-    font-style: italic;
-    cursor: pointer;
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 8px;
+  text-decoration: underline;
+  font-style: italic;
+  cursor: pointer;
 }
 .remove__item:hover {
-    background-color: tomato;
-    color: black;
+  background-color: tomato;
+  color: black;
 }
 .total-price {
-    width: 100%;
-    text-align: center;
-    padding: 24px;
-    font-size: 2rem;
-    font-weight: 600;
-    background-color: rgba(whitesmoke, 0.8);
-    color: darkblue;
+  width: 100%;
+  text-align: center;
+  padding: 24px;
+  font-size: 2rem;
+  font-weight: 600;
+  background-color: rgba(whitesmoke, 0.8);
+  color: darkblue;
 }

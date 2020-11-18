@@ -1,8 +1,8 @@
-const client = contentful.createClient({
-  space: "irfb9k6db8bp",
-  accessToken: "Y9maEsv1ffwFCUWHtYIcIX2DVUYelji4UjvwKnIseQw",
-  //host: "preview.contentful.com"
-});
+// const client = contentful.createClient({
+//   space: "xxxxxxxxxxxxx",
+//   accessToken: "Yxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+//   //host: "preview.contentful.com"
+// });
 
 
 const cartTotal = document.querySelector(".total-price");
@@ -33,7 +33,7 @@ class Products {
         const {title, price, description} = item.fields;
         const {id}= item.sys;
         const image = item.fields.image.fields.file.url;
-        return { title, price, description, id,  image };
+        return {title, price, description, id, image};
       });
       return products;
     } catch (err) {
@@ -110,7 +110,7 @@ class UI {
     div.classList.add('cart__item');
     div.innerHTML = `
                         <div class="cart__image"> 
-                          <img src="${item.image}" alt="" />
+                          <img src="${item.image}" alt=""/>
                       </div>
 
                       <div class="cart__description">

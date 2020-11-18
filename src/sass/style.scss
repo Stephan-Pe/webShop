@@ -12,6 +12,7 @@ html {
 body {
   scroll-padding-top: var(--top-spacing);
   margin: var(--top-spacing) auto;
+  
 }
 .content {
   font-family: "Roboto";
@@ -19,18 +20,48 @@ body {
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
-  position: relative;
   top: 100px;
   width: 100vw;
   height: 400px;
-  background-color: rebeccapurple;
+  background: url('../img/Shrimp_Salad.jpg'), radial-gradient(#ccc, #333);
+  background-blend-mode: multiply;
+  color: wheat;
   h1 {
     font-size: 3rem;
   }
   h4 {
     font-size: 2rem;
+    padding: 16px;
+    border: 3px solid wheat;
+    background-color: rgba(green, .6);
+    border-radius: 12px;
+  }
+  a {
+    color: wheat;
+    text-decoration: none;
   }
 }
 .header {
   height: 80px;
+  width: 100%;
+  nav {
+    height: 100%;
+  }
+  ul {
+    width: 60%;
+    height: 100%;
+    font-weight: 600;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 1.6rem;
+  }
+  a:active,
+  a:focus,
+  a:hover {
+    color: green;
+  }
+  
 }
