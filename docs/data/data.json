@@ -1,0 +1,72 @@
+{
+    "items": [
+        {
+            "sys": {
+                "id": "1"
+            },
+            "fields": {
+                "title": "Capuns nach Art des Chefs",
+                "price": 24.50,
+                "description": "Hausgemacht, würzig und fein",
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "img/Capuns.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "2"
+            },
+            "fields": {
+                "title": "Shrimps nach Art des Chefs",
+            "description": "Hausgemacht, würzig und pikant",
+             "price": 36.50,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "img/Shrimp_Salad.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "3"
+            },
+            "fields": {
+                            "title": "Waffel nach Art des Chefs",
+            "description": "Hausgemacht, süss und fein",
+             "price": 10.50,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "img/waffel_web.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "4"
+            },
+            "fields": {
+                "title": "Gemüseteller nach Art des Chefs",
+            "description": "Hausgemacht, frisch und fein",
+            "price": 24.50,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "img/risotto.jpg"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
